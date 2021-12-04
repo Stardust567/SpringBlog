@@ -18,9 +18,9 @@ spring:
 
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://127.0.0.1/spring_blog_dev?useUnicode=true&characterEncoding=utf8&useSSL=false
+        url: jdbc:mysql://172.31.19.3/spring_blog_dev?useUnicode=true&characterEncoding=utf8&useSSL=false
         username: root
-        password:
+        password: IPADS-root123
 
         hikari:
             data-source-properties:
